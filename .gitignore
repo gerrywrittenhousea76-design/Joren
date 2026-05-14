@@ -1,0 +1,41 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# next.js
+.next
+out
+dist
+build
+
+# misc
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# env / secrets
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode
+.idea
+
+# === 大文件（GitHub 单文件 100MB 上限）===
+# 视频不进 git；上线后从 OSS / B站 / 阿里云加载
+public/works/*.mov
+public/works/*.mp4
+public/works/*.webm
+
+# 备份与临时文件
+*.bak
+*.tmp
