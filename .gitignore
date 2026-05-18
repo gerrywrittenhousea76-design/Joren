@@ -30,8 +30,9 @@ yarn-error.log*
 .vscode
 .idea
 
-# === 大文件（GitHub 单文件 100MB 上限）===
-# 视频不进 git；上线后从 OSS / B站 / 阿里云加载
+# === 视频不进 git ===
+# 国内网络 push 大文件到 GitHub 会被掐断；视频统一走阿里云 OSS。
+# 本地这些文件保留，dev 预览正常；线上由 OSS 提供。
 public/works/*.mov
 public/works/*.mp4
 public/works/*.webm

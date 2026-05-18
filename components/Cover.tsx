@@ -56,7 +56,7 @@ export default function Cover() {
           data-cursor="hover"
         >
           {/* 底层：英文（一直显示，黑体） */}
-          <h1 className="font-cn font-light text-[10vw] md:text-[7.6vw] leading-[1.05] tracking-tight text-bone-50">
+          <h1 className="font-cn font-normal md:font-light text-[10vw] md:text-[7.6vw] leading-[1.05] tracking-tight text-bone-50">
             Hello, I&apos;M JOREN.
           </h1>
 
@@ -101,7 +101,7 @@ export default function Cover() {
               和英文同字号、同行、同位置。 */}
           <h1
             aria-hidden
-            className="pointer-events-none absolute inset-0 flex items-center justify-center font-cn font-light text-[10vw] md:text-[7.6vw] leading-[1.05] tracking-tight text-bone-50 transition-opacity duration-500"
+            className="pointer-events-none absolute inset-0 flex items-center justify-center font-cn font-normal md:font-light text-[10vw] md:text-[7.6vw] leading-[1.05] tracking-tight text-bone-50 transition-opacity duration-500"
             style={{
               clipPath: `circle(${LENS_R}px at ${pos.x}px ${pos.y}px)`,
               opacity: active ? 1 : 0,

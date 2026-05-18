@@ -38,7 +38,7 @@ export const works: Work[] = [
       "为新一代 AI 智能喂食器制作的产品广告。通过 AI 影像 + 实拍合成，呈现宠物与产品之间安静、温柔的日常时刻。",
     tags: ["AI 视频", "产品叙事", "动效"],
     accent: "from-[#1F2A2F] via-[#0F1418] to-[#0B0C0F]",
-    video: "/works/01-feeder.mov",
+    video: "/works/01-feeder-web.mp4",
   },
   {
     id: "grill-cleaner",
@@ -51,7 +51,7 @@ export const works: Work[] = [
       "独立负责产品广告成片的创意策划、分镜设计、AI 视觉生成与后期整合。视频上线后，帮助客户将原本表现低迷的\"死链接\"重新激活，显著提升页面转化效率，并推动产品实现爆单增长。",
     tags: ["AI 视频", "产品广告", "电商转化"],
     accent: "from-[#21201B] via-[#13120E] to-[#0B0A07]",
-    video: "/works/02-grill-cleaner.mp4",
+    video: "/works/02-grill-cleaner-web.mp4",
   },
   {
     id: "modular-furniture",
